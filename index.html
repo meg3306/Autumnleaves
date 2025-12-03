@@ -1,4 +1,4 @@
-index.html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +8,14 @@ index.html
 
     <!-- STYLE SHEET -->
     <link rel="stylesheet" href="style.css" />
+     <section id="demo">
+  <h2>Demo</h2>
+  <p>
+    <a href="https://www.youtube.com/watch?v=K4eM4r7YfGE" target="_blank">
+      Watch the video demo here
+    </a>
+  </p>
+</section>
 </head>
 
 <body>
@@ -20,9 +28,26 @@ index.html
 
     <!-- GAME CONTAINER -->
     <section id="game-area">
-        <canvas id="gameCanvas" width="800" height="500">
-            Your browser does not support the HTML5 Canvas element.
-        </canvas>
+       <section>
+    <h2>Preview Images Here</h2>
+
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div>
+            <img src="leaf.png" alt="Leaf Preview" style="width:150px;">
+            <p>Leaf</p>
+        </div>
+
+        <div>
+            <img src="tree.png" alt="Tree Preview" style="width:150px;">
+            <p>Tree</p>
+        </div>
+
+        <div>
+            <img src="grass.png" alt="Grass Preview" style="width:150px;">
+            <p>Grass</p>
+        </div>
+    </div>
+</section>
 
         <div id="ui">
             <button id="restartBtn">Restart</button>
@@ -42,6 +67,8 @@ index.html
             <li>Watch out for strong wind and the timer!</li>
         </ul>
     </section>
+
+   
 
     <!-- FOOTER -->
     <footer>
