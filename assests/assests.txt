@@ -1,0 +1,12 @@
+assests
+assets/
+│── grass.png
+│── leaf.png
+│── tree.png
+│
+├── screenshots/
+│      ├── level1.png
+│      ├── level2.png
+│
+└── video/
+       └── demo.mp4

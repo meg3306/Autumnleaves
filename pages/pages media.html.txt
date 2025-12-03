@@ -1,0 +1,39 @@
+pages media.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Media – Autumn Leaves Game</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Media Gallery</h1>
+</header>
+
+<section id="media">
+    <h2>Screenshots</h2>
+    <div class="media-grid">
+        <img src="../assets/screenshots/level1.png" alt="Level 1 Screenshot">
+        <img src="../assets/screenshots/level2.png" alt="Level 2 Screenshot">
+        <img src="../assets/screenshots/level3.png" alt="Level 3 Screenshot">
+    </div>
+
+    <h2>Gameplay Video</h2>
+    <video src="../assets/video/demo.mp4" controls width="500"></video>
+
+    <p style="margin-top: 30px;">
+        <a href="../index.html">⬅ Back to Home</a> |
+        <a href="credits.html">Credits</a>
+    </p>
+</section>
+
+<footer>
+    <p>Autumn Leaves Game © 2024</p>
+</footer>
+
+</body>
+</html>

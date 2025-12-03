@@ -1,0 +1,51 @@
+pages- credit.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Credits – Autumn Leaves Game</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Credits</h1>
+</header>
+
+<section id="credits">
+    <h2>Project Creator</h2>
+    <p><strong>Megan Kazadi</strong></p>
+
+    <h2>Media Creation Tools</h2>
+    <ul>
+        <li>DALL·E – generated game images and concept assets</li>
+        <li>Adobe Firefly – used for additional visual editing and design</li>
+    </ul>
+
+    <h2>Development Tools</h2>
+    <ul>
+        <li>HTML5 Canvas</li>
+        <li>JavaScript (Game Logic & Interaction)</li>
+        <li>CSS (Styling & Layout)</li>
+        <li>GitHub Pages (Website Hosting)</li>
+    </ul>
+
+    <h2>Additional Resources</h2>
+    <ul>
+        <li>Gameplay recordings and screenshots created by Megan Kazadi</li>
+        <li>All assets organized in the custom <code>/assets</code> folder</li>
+    </ul>
+
+    <p style="margin-top: 30px;">
+        <a href="../index.html">⬅ Back to Home</a>
+    </p>
+</section>
+
+<footer>
+    <p>Autumn Leaves Game © 2024</p>
+</footer>
+
+</body>
+</html>

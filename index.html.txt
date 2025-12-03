@@ -1,0 +1,55 @@
+index.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Autumn Leaves – Game</title>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+    <!-- HEADER / TITLE -->
+    <header>
+        <h1>🍁 Autumn Leaves Game</h1>
+        <p>Use the arrow keys to control the wind and guide the leaf into the pile!</p>
+    </header>
+
+    <!-- GAME CONTAINER -->
+    <section id="game-area">
+        <canvas id="gameCanvas" width="800" height="500">
+            Your browser does not support the HTML5 Canvas element.
+        </canvas>
+
+        <div id="ui">
+            <button id="restartBtn">Restart</button>
+            <p id="timer">Time: 30</p>
+            <p id="score">Score: 0</p>
+            <p id="gameOver" class="hidden">Game Over!</p>
+        </div>
+    </section>
+
+    <!-- INSTRUCTIONS SECTION -->
+    <section id="instructions">
+        <h2>How to Play</h2>
+        <ul>
+            <li>Use the <strong>Arrow Keys</strong> to control the wind.</li>
+            <li>Move the leaf safely into the leaf pile.</li>
+            <li>The faster you do it and the bigger the pile gets, the more points you earn.</li>
+            <li>Watch out for strong wind and the timer!</li>
+        </ul>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <p>Created by Megan Kazadi</p>
+    </footer>
+
+    <!-- GAME SCRIPT -->
+    <script src="script.js"></script>
+
+</body>
+</html>
